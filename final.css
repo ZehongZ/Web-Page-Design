@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+#owner{
+	font-size:9px;
+	color: red;
+}
+#cite{
+	font-size:9px;
+	color:red;
+}
+
+#welcome{
+	color:#A4CEF4;
+}
+#container{
+	margin-top:2em;
+	width: 720px;
+	margin: fixed;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 5px 5px 20px #999;
+}
+
+#containerT{
+	margin-top:2em;
+	width: 810px;
+	margin: fixed;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 5px 5px 20px #999;
+}
+#history{
+	margin-top:2em;
+	width: 720px;
+	margin: fixed;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 5px 5px 20px #999;
+}
+
+#submit{
+	width: 100px;
+	background-color: #DCDCDC;
+}
+
+#resetbutton{
+	width: 100px;
+	background-color: #DCDCDC;
+}
+
+#free{
+	font-size:9px;
+	color: red;
+	
+}
+
+#name{
+	font-size:20px;
+	margin-left: 100px;
+}
+
+#bioOne
+{
+	background-color:#054922;
+	margin-bottom: 9px;
+}
+
+#bioTwo
+{
+	background-color:#054922;
+	margin-bottom: 9px;
+}
+
+#reason
+{
+	background-color:#63680C;
+	margin-bottom: 9px;
+}
+
+#pic{
+	float: right;
+	position: relative;
+	left: 100px;
+	margin-top: 165px;	
+}
+#his
+{
+	margin-left: 250px;
+}
+
+#check
+{
+	margin-left: 200px;
+}
+h1{
+	color:#CAE726;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 50px;
+	margin-left: 150px;
+	font-size:36px;
+}
+
+h2{
+	color: blue;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-buttom: 100px;
+	font-size: 24px;
+}
+
+h3{
+	margin-left: 150px;
+	font-size:18px;
+	margin-top: 18px;
+}
+body{
+	background:url(Images/Background.JPG) repeat fixed -130% 0;
+	
+}
+
+Input{
+	width:250px;
+}
+nav ul li {
+	background-color:#FDFDFD;
+	width: 50px:
+	height: 35px;
+	border-style: solid;
+	boder-color: #460064;
+	border-width: 2px;
+	text-align: center;
+	list-style-type:none;
+	float:left;
+}
+
+form ul li{
+	float: none;
+	position: relative;
+	width:300px;
+	border-style: solid;
+	border-color: #D9E426;
+	border-width: 2px;
+	text-align: center;
+	box-shadow: 0 0 20px #999
+}
+

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PageThree</title>
+<link rel="stylesheet" href="final.css">
+<script src="final.js"></script>
+</head>
+<body>
+<nav>
+	<ul>
+    	<li><a href="HomePage.html">Home page</a></li> 
+        <li><a href="PageTwo.html">Page two</a></li>
+        <li><a href="PageThree.html">Page three</a></li>
+        <li><a href="AboutMe.html">About me</a></li>
+    </ul>
+<p id="welcome"> Click and see other pages!</p>
+
+<h1>It is time for shopping.</h1>
+<h2 onclick="this.innerHTML='Jersey, Shoes & Socks!'"id="check">Click to Check them out!</h2>
+<img src="Images/Shopping.jpg" alt="ShoppingMall" width="810" height="540">
+<div id="containerT">
+<p>
+San Francisco offers some of the best shopping in the world, so it is no wonder that tourists and serious shopaholics alike want to spend some time and money in San Francisco's varied shopping centers, districts and malls. Union Square, Hayes Valley, Haight-Ashbury, upper Fillmore, the Mission, Sacramento Street, Chinatown and downtown's San Francisco Shopping Center offer a unique style with one-of-a-kind shops, each mall and neighborhood with a distinctive feel suited to any shopper's mood, from urban sophisticate to funk fantastic. And while many people may think shopping in San Francisco is an expensive venture, savvy shoppers will realize that there are possibilities for every budget.
+</p>
+
+
+</div>
+<form name="myform">
+<ul id="shop">
+	<li>
+    	<label for="jersey">Price of a Jersey: $100</label>
+        <input type="text" id="jersey" name="jersey" placeholder="0">
+    </li>
+    	
+    <li>
+    <label for="stocks">Price of a Pair of Stocks: $150</label>         
+    <input type="text" id="stocks" name="stocks"placeholder="0">
+    </li>
+    
+    <li>
+    <label for="shoes">Price of a Pair of Shoes: $200</label>
+    <input type="text" id="shoes" name="shoes" placeholder="0">
+    </li>
+    
+    <li>
+        <input type="button" value="Submit Order" id="submit" onClick="submitForm()">
+    </li>
+ 
+    <li>
+    	<input type="reset" value="Start over" id="resetbutton">
+    </li>
+    
+    <li>
+       	<input type="text" id="result" name="result"> 
+      </li>
+</ul>
+</form>
+
+<footer>
+	<p>Page last updated: <span id="datetime"></p>
+	<p id="free">
+The Photo is from Morguefile.com
+	</p>
+</footer>
+<script>
+	document.getElementById("datetime").innerHTML = document.lastModified;
+</script>
+
+<!--This page is going to introduce shopping in San Franciso and help costomer calculating the price of their purchases-->
+</body>
+</html>
